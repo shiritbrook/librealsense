@@ -1,12 +1,12 @@
-# External Devices and RS4XX
+# External Devices and D400xx
 
-RS400 series of RealSense devices include several features for integration with external sensors.
+Intel® RealSense™ Depth modules D400xx series includes several features for integration with external sensors.
 This document will explain how these are exposed in librealsense.
 
 ## Output Trigger
 
-In addition to the USB3 connector, RS400 cameras expose headers for interaction with external devices.
-The camera can provide trigger every time frame is being captured (with RS400 as the master).
+In addition to the USB3 connector, D400 cameras expose headers for interaction with external devices.
+The camera can provide trigger every time frame is being captured (with D400 as the master).
 
 To enable this mode, all you need to do is:
 
