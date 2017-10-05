@@ -1,10 +1,10 @@
-# RS400 Advanced Mode
+# D400xx Advanced Mode
 
 ## Overview
-RS400 is the newest in the series of stereo-based RealSense devices. It is provided in a number distinct models, all sharing the same depth-from-stereo ASIC. The models differ in optics, global vs. rolling shutter, and the projector capabilities. In addition, different use-cases may introduce different lighting conditions, aim at different range, etc...
+Intel® RealSense™ Depth modules D400xx series is Intel's newest stereo-based devices. It is provided in a number distinct models, all sharing the same depth-from-stereo ASIC. The models differ in optics, global vs. rolling shutter, and the projector capabilities. In addition, different use-cases may introduce different lighting conditions, aim at different range, etc...
 As a result, depth-from-stereo algorithm in the hardware has to be able to adjust to vastly different stereo input images.
 
-To achieve this goal, RS400 ASIC provides an extended set of controls aimed at advanced users, allowing to fine-tune the depth generation process. (and some other like **color-correction**)
+To achieve this goal, Intel® RealSense™ Vision Processor D4 ASIC provides an extended set of controls aimed at advanced users, allowing to fine-tune the depth generation process. (and some other like **color-correction**)
 
 Advanced mode hardware APIs are designed to be **safe**, in the sense that the user can't brick the device. You always have the option to exit advanced mode, and fall back to default mode of operation.
 However, while tinkering with the advanced controls, depth quality and stream frame-rate are not guarantied. You are making changes on your own risk.
